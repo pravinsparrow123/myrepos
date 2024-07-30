@@ -9,12 +9,12 @@ import  Home  from './Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Router>
         <Route path='/' element={<App />} />
         <Route path='/home' element={<Home />} />
       </Router>
-    </BrowserRouter>
+    </BrowserRouter> */}
     <App />
   </React.StrictMode>
 );
